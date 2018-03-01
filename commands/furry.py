@@ -15,5 +15,3 @@ async def run(message, client, args):
 # function called by help to retrieve info about the command
 async def get_help():
     return USAGE, DESCRIPTION
-
-
