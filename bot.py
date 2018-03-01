@@ -11,7 +11,6 @@ config.read('config.ini')
 PREFIX = config["Settings"]["prefix"]
 OWNER = config["Settings"]["owner"]  # unused but will be needed
 
-
 # ran when the bot successfully logs in :D
 @client.event
 async def on_ready():
